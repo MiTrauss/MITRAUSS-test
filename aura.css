@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Bahnschrift;
+    height: 8vh;
+    background-color: #fff;
+}
+
+body{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 92vh;
+    color: rgb(0, 0, 0);
+    background-attachment: fixed;
+  
+
+}
+.title1{
+    text-align: center;
+    margin-top: 6%;
+    margin-left: -50%;
+    color: rgb(255, 255, 255);
+    font-family: Bahnschrift;
+}
+.title2{
+    text-align: center;
+    margin-top: auto;
+    margin-left: -60%;
+    color: rgb(255, 255, 255);
+    font-family: Bahnschrift;
+}
+.title3{
+    text-align: center;
+    margin-top: auto;
+    margin-left: -73%;
+    color: rgb(255, 255, 255);
+    font-family: Bahnschrift;
+}
+.title4{
+    text-align: center;
+    margin-top: auto;
+    margin-left: -73%;
+    color: rgb(255, 255, 255);
+    font-family: Bahnschrift;
+}
+.kaftan {
+    margin-left: 0.5%;
+    transition: trasnform 10s ease-in-out;
+
+}
+.kaftan:hover{
+    transform: scale(1.02);
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
+
+.container {
+    display: flex; /* Define a flexbox */
+    justify-content: space-around; /* Distribui as imagens com espaço entre elas */
+}
+.imagem {
+    width: 30%; /* Define a largura das imagens */
+    height: auto; /* Ajuste a altura automaticamente */
+    margin: 10px; /* Adiciona margem entre as imagens */
+}
+
+.image1{
+    margin-top: 5%;
+    margin-left: 0.5%;
+}
+
+.image2{
+    
+    margin-left: 1%;
+}
+
+
+footer {
+   
+    color: #000000;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    bottom: 0;
+    width: auto;
+    font-family: Bahnschrift;
+    overflow: hidden;
+    opacity: 0.4;
+}
+footer a {
+    color: #000000; /* Define a cor do link como vermelho */
+}
+
+.social-icons{
+    margin: 20px 0;
+    padding: 20px;
+    color: #fff;
+}
+
+.social-icons a{
+    border: 1px solid #ccc;
+    border-radius: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+/* Estilo da imagem */
+.imagem-link {
+    text-decoration: none;/* Sem efeito ao passar o mouse */
+}

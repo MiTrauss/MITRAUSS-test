@@ -1,0 +1,230 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Bahnschrift;
+    height: 8vh;
+    background-color: #fff;
+}
+
+body{
+    background-color: rgb(255, 255, 255) ;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+}
+
+.button1 {
+    margin-left: 12%;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transform: 0.4s;
+    height: 20px;
+    width: 70px;
+    font-family: Bahnschrift;
+    color: #fff;
+}
+.title1{
+    text-align: center;
+    margin-top: 8%;
+    color: rgb(255, 255, 255);
+    margin-left: -70%;
+    font-family: Bahnschrift;
+}
+.title2{
+    text-align: center;
+    margin-top: 0.5%;
+    color: rgb(255, 255, 255);
+    margin-left: -75%;
+    font-family: Bahnschrift;
+}
+
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #000000;
+    margin: 8px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Ajuste o tamanho conforme necessário */
+    text-align: center;
+}
+
+.imagem {
+    width: 310.3%;
+    height: 5%;
+    margin-left: 0%;
+}
+
+.texto {
+    position: absolute;
+    top: 20px; /* Ajuste a posição do texto */
+    left: 20px; /* Ajuste a posição do texto */
+    color: white; /* Cor do texto */
+    font-size: 24px; /* Tamanho da fonte */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center;
+}
+
+.botao {
+    position: absolute;
+    top: 79%; /* Ajuste a posição do botão */
+    left: 260%; /* Ajuste a posição do botão */
+    padding: 10px 20px; /* Tamanho do botão */
+    background-color: rgb(255, 255, 255); /* Cor de fundo do botão */
+    color: rgb(0, 0, 0); /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    height: 60px;
+    width: 150px;
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: 100;
+    font-size:x-large;
+    
+    border: none;
+    text-align: center;
+    
+}
+
+.botao1 {
+    position: absolute;
+    top: 79%; /* Ajuste a posição do botão */
+    left: 15%; /* Ajuste a posição do botão */
+    padding: 10px 20px; /* Tamanho do botão */
+    background-color: rgb(255, 255, 255); /* Cor de fundo do botão */
+    color: rgb(0, 0, 0); /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    height: 70px;
+    width: 160px;
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: 100;
+    font-size:x-large;
+    border: none;
+    text-align: center;
+}
+
+.botao2 {
+    position: absolute;
+    top: 79%; /* Ajuste a posição do botão */
+    left: 260%; /* Ajuste a posição do botão */
+    padding: 10px 20px; /* Tamanho do botão */
+    background-color: rgb(255, 255, 255); /* Cor de fundo do botão */
+    color: rgb(0, 0, 0); /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    height: 60px;
+    width: 150px;
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: 100;
+    font-size:x-large;
+    
+    border: none;
+    text-align: center;
+}
+
+.botao3 {
+    position: absolute;
+    top: 79%; /* Ajuste a posição do botão */
+    left: 15%; /* Ajuste a posição do botão */
+    padding: 10px 20px; /* Tamanho do botão */
+    background-color: rgb(255, 255, 255); /* Cor de fundo do botão */
+    color: rgb(0, 0, 0); /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    height: 60px;
+    width: 150px;
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: 100;
+    font-size:x-large;
+    
+    border: none;
+    text-align: center;
+}
+
+footer {
+    opacity: 0.4;
+    color: #000000;
+    padding: 20px;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: auto;
+    font-family: Bahnschrift;
+    overflow: hidden;
+    
+}
+footer a {
+    color: #000000; /* Define a cor do link como vermelho */
+    
+}
+
+.social-icons{
+    margin: 20px 0;
+    padding: 20px;
+    color: #fff;
+}
+
+.social-icons a{
+    border: 1px solid #ccc;
+    border-radius: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    color: #fff;
+}
